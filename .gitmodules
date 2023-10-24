@@ -1,3 +1,0 @@
-[submodule "example/二维码生成器/QR-code-generation"]
-	path = example/二维码生成器/QR-code-generation
-	url = git@github.com:YCCss/QR-code-generation.git
