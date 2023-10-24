@@ -7,3 +7,21 @@
 
 
 
+
+
+## 打包
+
+```bash
+pip install pyinstaller
+pyinstaller -F -w main.py
+```
+
+
+
+
+
+
+
+
+
+## 
