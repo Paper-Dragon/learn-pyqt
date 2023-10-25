@@ -39,17 +39,17 @@ class MyWindow(QWidget):
         self.setFixedSize(300, 270)
         self.setWindowTitle("抽屉布局")
         container = QVBoxLayout()
+
         widget = QWidget()
         widget.setLayout(self.stacked_layout)
         widget.setStyleSheet("background-color:grey;")
+        container.addWidget(widget)
 
         btn1 = QPushButton("抽屉1")
         btn2 = QPushButton("抽屉2")
-
         btn1.clicked.connect(self.btn1_clicked)
         btn2.clicked.connect(self.btn2_clicked)
 
-        container.addWidget(widget)
         container.addWidget(btn1)
         container.addWidget(btn2)
 
